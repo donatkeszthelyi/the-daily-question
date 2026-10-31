@@ -1,6 +1,6 @@
 # The Daily Question
 
-A minimal daily trivia application that presents one multiple-choice question each day.
+A minimal daily trivia application that presents one multiple-choice question each day. The application is available on this link: [The Daily Question](https://daily.donatkeszthelyi.com/).
 
 Built with vanilla JavaScript, Cloudflare Workers and Cloudflare D1. Questions are provided by the [Open Trivia Database](https://opentdb.com/).
 
