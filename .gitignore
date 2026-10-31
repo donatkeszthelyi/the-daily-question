@@ -1,0 +1,90 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.*.*.*.*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies
+node_modules/
+jspm_packages/
+bower_components/
+web_modules/
+
+# Build output
+build/Release/
+dist/
+.next/
+out/
+.nuxt/
+.vuepress/dist/
+.cache/
+.parcel-cache/
+.temp/
+.docusaurus/
+
+# Test and coverage
+coverage/
+*.lcov
+.nyc_output/
+lib-cov/
+
+# Tool caches
+.grunt/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.npm/
+.eslintcache
+.stylelintcache
+.tsbuildinfo
+.node_repl_history
+
+# Package manager
+.yarn-integrity
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Wrangler
+.wrangler/
+.dev.vars*
+!.dev.vars.example
+
+# Environment variables
+.env*
+!.env.example
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor and operating system files
+.vscode/
+.vscode-test/
+.DS_Store
+Thumbs.db
+
+# Other generated files
+*.tgz
+.cache/
+.parcel-cache/
+.serverless/
+.dynamodb/
+.tern-port
+.lock-wscript
